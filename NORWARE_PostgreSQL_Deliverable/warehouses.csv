@@ -1,0 +1,7 @@
+warehouse_id,warehouse_name,country_code,city,storage_profile,capacity_m3
+WH001,Ambient General,US,Chicago,AMBIENT,25000
+WH002,Food & Cold Chain,NL,Rotterdam,CHILLED,12000
+WH003,Electronics & Secure,SG,Singapore,DRY_SECURE,9000
+WH004,Hazardous Materials,DE,Hamburg,HAZMAT,7000
+WH005,Building Materials,IN,Mumbai,BULK,30000
+WH006,Healthcare Supply,JP,Osaka,CONTROLLED,8000

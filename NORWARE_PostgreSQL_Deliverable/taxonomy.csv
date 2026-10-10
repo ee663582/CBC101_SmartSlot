@@ -1,0 +1,64 @@
+category_code,category_name,parent_code,level
+FOOD,Food & beverages,,1
+FOOD01,Grains & pulses,FOOD,2
+FOOD02,Packaged foods,FOOD,2
+FOOD03,Produce,FOOD,2
+FOOD04,Dairy,FOOD,2
+FOOD05,Frozen foods,FOOD,2
+FOOD06,Beverages,FOOD,2
+ELEC,Electrical & electronics,,1
+ELEC01,Computers,ELEC,2
+ELEC02,Consumer electronics,ELEC,2
+ELEC03,Electrical components,ELEC,2
+ELEC04,Cables,ELEC,2
+ELEC05,Batteries,ELEC,2
+CHEM,Chemicals & process materials,,1
+CHEM01,Industrial chemicals,CHEM,2
+CHEM02,Cleaning products,CHEM,2
+CHEM03,Paints & coatings,CHEM,2
+CHEM04,Laboratory supplies,CHEM,2
+PHAR,Healthcare & pharmaceuticals,,1
+PHAR01,Medical devices,PHAR,2
+PHAR02,Pharmaceuticals,PHAR,2
+PHAR03,PPE,PHAR,2
+PHAR04,Diagnostic supplies,PHAR,2
+TEXT,Textiles & apparel,,1
+TEXT01,Clothing,TEXT,2
+TEXT02,Footwear,TEXT,2
+TEXT03,Fabrics,TEXT,2
+TEXT04,Home textiles,TEXT,2
+AUTO,Automotive & transport,,1
+AUTO01,Vehicle parts,AUTO,2
+AUTO02,Tires,AUTO,2
+AUTO03,Lubricants,AUTO,2
+AUTO04,Bicycle parts,AUTO,2
+BUILD,Construction & hardware,,1
+BUILD01,Lumber,BUILD,2
+BUILD02,Cement & aggregates,BUILD,2
+BUILD03,Fasteners,BUILD,2
+BUILD04,Tools,BUILD,2
+BUILD05,Plumbing,BUILD,2
+HOME,Home & office,,1
+HOME01,Furniture,HOME,2
+HOME02,Stationery,HOME,2
+HOME03,Appliances,HOME,2
+HOME04,Housewares,HOME,2
+AGRI,Agriculture & outdoor,,1
+AGRI01,Seeds,AGRI,2
+AGRI02,Fertilizers,AGRI,2
+AGRI03,Animal feed,AGRI,2
+AGRI04,Garden supplies,AGRI,2
+PACK,Packaging & shipping,,1
+PACK01,Cartons,PACK,2
+PACK02,Pallets,PACK,2
+PACK03,Protective packaging,PACK,2
+PACK04,Containers,PACK,2
+SPORT,Sport & recreation,,1
+SPORT01,Exercise equipment,SPORT,2
+SPORT02,Outdoor gear,SPORT,2
+SPORT03,Toys & games,SPORT,2
+METAL,Metals & raw materials,,1
+METAL01,Steel products,METAL,2
+METAL02,Aluminum products,METAL,2
+METAL03,Copper products,METAL,2
+METAL04,Resins,METAL,2
