@@ -1,0 +1,4 @@
+source_id,source_name,source_type,url,license,record_usage,accessed_date
+SRC-GEN-001,NORWARE deterministic synthetic generator,GENERATED,,Not applicable; generated examples,"All 10,000 product records; no real-world product listing is asserted",2026-10-10
+SRC-REF-001,GS1 Global Product Classification (reference only),REFERENCE,https://www.gs1.org/standards/gpc,See provider terms,Taxonomy context only; no records copied,
+SRC-REF-002,UN Central Product Classification (reference only),REFERENCE,https://unstats.un.org/unsd/classifications/Econ/cpc,See provider terms,Category coverage context only; no records copied,

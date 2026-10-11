@@ -1,0 +1,6 @@
+node_modules/
+.output/
+dist/
+.env
+*.sqlite3-shm
+*.sqlite3-wal

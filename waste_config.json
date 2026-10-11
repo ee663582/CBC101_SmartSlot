@@ -1,0 +1,17 @@
+{
+  "waste_streams": [
+    {"category": "Food waste", "storage": "WASTE", "restricted": false, "roles": ["operator", "manager", "admin"]},
+    {"category": "Electrical & electronic waste", "storage": "DRY_SECURE", "restricted": false, "roles": ["operator", "manager", "admin"]},
+    {"category": "Batteries", "storage": "DRY_SECURE", "restricted": true, "roles": ["manager", "admin"]},
+    {"category": "Lamps", "storage": "DRY_SECURE", "restricted": false, "roles": ["operator", "manager", "admin"]},
+    {"category": "General recyclables", "storage": "WASTE", "restricted": false, "roles": ["operator", "manager", "admin"]},
+    {"category": "Plastics", "storage": "WASTE", "restricted": false, "roles": ["operator", "manager", "admin"]},
+    {"category": "Medical: general non-hazardous", "storage": "CONTROLLED", "restricted": false, "roles": ["operator", "manager", "admin"]},
+    {"category": "Medical: infectious", "storage": "CONTROLLED", "restricted": true, "roles": ["manager", "admin"]},
+    {"category": "Medical: sharps", "storage": "CONTROLLED", "restricted": true, "roles": ["manager", "admin"]},
+    {"category": "Medical: pathological", "storage": "CONTROLLED", "restricted": true, "roles": ["manager", "admin"]},
+    {"category": "Medical: pharmaceutical/cytotoxic", "storage": "CONTROLLED", "restricted": true, "roles": ["manager", "admin"]},
+    {"category": "Medical: chemical", "storage": "CONTROLLED", "restricted": true, "roles": ["manager", "admin"]},
+    {"category": "Medical: radioactive", "storage": "CONTROLLED", "restricted": true, "roles": ["manager", "admin"]}
+  ]
+}
