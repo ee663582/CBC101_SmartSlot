@@ -578,7 +578,7 @@ export async function handleApi(request: Request) {
       if (query.includes('expiry') || query.includes('expir')) advice.push('Review expiry dates and use FEFO (first expiry, first out) where local policy allows.')
       if (query.includes('waste') || query.includes('battery')) advice.push('Waste storage follows the configured stream and role rules; confirm local handling requirements.')
       if (!advice.length) advice.push('Ask about a product ID, SKU, barcode, storage profile, shelf capacity, expiry, or waste stream.')
-      return json({ answer: advice.join(' '), mode: 'rule-based NORWARE assistant', references: product ? [`product:${product.id}`] : [] })
+      return json({ answer: advice.join(' '), mode: 'rule-based Smart Slots assistant', references: product ? [`product:${product.id}`] : [] })
     }
     return fail('Not found.', 404)
   } catch (error) {
@@ -587,7 +587,7 @@ export async function handleApi(request: Request) {
 }
 
 function mkdtempPath() {
-  return resolve(tmpdir(), `norware-demo-${randomBytes(8).toString('hex')}`)
+  return resolve(tmpdir(), `smart-slots-demo-${randomBytes(8).toString('hex')}`)
 }
 
 export function closeDatabases() {

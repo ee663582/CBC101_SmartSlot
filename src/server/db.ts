@@ -77,7 +77,7 @@ function seedDatabase(db: Db) {
     ]
     for (const row of seeds) seedWarehouse.run(...row)
     for (const w of csvRows<Record<string, string>>('warehouses.csv')) {
-      seedWarehouse.run(w.warehouse_id, w.warehouse_name, w.country_code, w.city, w.storage_profile, 'Imported NORWARE sample warehouse')
+      seedWarehouse.run(w.warehouse_id, w.warehouse_name, w.country_code, w.city, w.storage_profile, 'Imported Smart Slots sample warehouse')
     }
     const coverage: Record<string, string> = {
       WH001: 'ALL', WH002: 'FOOD,PHAR', WH003: 'ELEC,PHAR',
@@ -127,7 +127,7 @@ export function openDatabase(path = dbPath) {
 
 export function createDemoDatabase() {
   const source = openDatabase()
-  const dir = mkdtempSync(resolve(tmpdir(), 'norware-demo-'))
+  const dir = mkdtempSync(resolve(tmpdir(), 'smart-slots-demo-'))
   const demoPath = resolve(dir, 'demo.sqlite3')
   source.backup(demoPath)
   source.close()

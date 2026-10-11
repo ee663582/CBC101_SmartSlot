@@ -1,6 +1,6 @@
-# NORWARE Warehouse Operations
+# Smart Slots Warehouse Operations
 
-NORWARE is a local warehouse operations demo. The active app uses **React**, **Tailwind CSS**, **TanStack Start**, and **SQLite**. It supports inventory receiving, product search, shelf-fit suggestions, staff-confirmed allocation, warehouse capacity views, stock movements, guided transfers, and an audit log.
+Smart Slots is a local warehouse operations demo. The active app uses **React**, **Tailwind CSS**, **TanStack Start**, and **SQLite**. It supports inventory receiving, product search, shelf-fit suggestions, staff-confirmed allocation, warehouse capacity views, stock movements, guided transfers, and an audit log.
 
 The app is designed for local demonstration and development, not public or production deployment.
 
